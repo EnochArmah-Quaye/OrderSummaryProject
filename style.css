@@ -47,8 +47,9 @@ body {
 #text {
     margin: 0px;      
 }
-#image1 {
-    width: 100%;
+img {
+      width:100%;
+      height:auto;
 }
 #b1 {
     margin-left: 20px;
@@ -77,4 +78,80 @@ body {
     cursor: pointer;
     color: white;
     border-radius: 1em;
+}
+
+@media only screen and (max-width:320px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', Georgia, 'Times New Roman', Times, serif;
+    }
+    #container {
+        background-color:white;
+        margin: 0px 0px 0px ;
+        text-align: center;
+    }
+    #plan {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(225, 100%, 98%);
+        margin:0px 0px;
+    }
+    #plan-text {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+    }
+    #plan-text p {
+        margin-left:0px ;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    }
+    #link1 {
+        margin-left: 0px;
+        margin-top: 0px;                              
+    }
+    #image2 {
+        margin:0px 0px 0px 0px;
+    }
+    
+    #text {
+        margin: 0px;      
+    }
+    img {
+        width:100%;
+        height: auto;
+    }
+    #b1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 30px;
+    }
+    #b2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 30px;
+    }
+    #b1:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 1em;
+    }
+    #b2:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 1em;
+    }
 }
