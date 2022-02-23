@@ -88,22 +88,26 @@ img {
     }
     #container {
         background-color:white;
-        margin: 0px 0px 0px ;
+        margin: 30px 5px 0px 5px;
         text-align: center;
+        border-radius: 1em;
     }
     #plan {
         display: flex;
         flex-direction: row;
         background-color: hsl(225, 100%, 98%);
-        margin:0px 0px;
+        margin:0px 20px 0px 20px;
+        border-radius: 0.5em;
+
     }
     #plan-text {
         display: flex;
         flex-direction: row;
         margin-left: 0px;
+        font-size: 12px;
     }
     #plan-text p {
-        margin-left:0px ;
+        margin-left:20px ;
     }
     #buttons {
         display: flex;
@@ -112,8 +116,8 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 0px;
-        margin-top: 0px;                              
+        margin-left: 60px;
+        margin-top: 20px;                              
     }
     #image2 {
         margin:0px 0px 0px 0px;
@@ -125,33 +129,47 @@ img {
     img {
         width:100%;
         height: auto;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
     }
     #b1 {
+        margin-top: 20px;
         margin-left: 20px;
         margin-right: 20px;
         background-color: white;
         border-style: hidden;
-        height: 30px;
+        height: 40px;
     }
     #b2 {
         margin-top: 0px;
-        margin-bottom: 0px;
+        margin-bottom: 20px;
         margin-left: 20px;
         margin-right: 20px;
         background-color: white;
         border-style: hidden;
-        height: 30px;
+        height: 40px;
     }
     #b1:hover {
         background-color: blue;
         cursor: pointer;
         color: white;
-        border-radius: 1em;
+        border-radius: 0.5em;
     }
     #b2:hover {
         background-color: blue;
         cursor: pointer;
         color: white;
-        border-radius: 1em;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #text1 {
+        margin: 0px 8px 20px 8px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .attribution {
+        margin-top: 7px;
     }
 }
