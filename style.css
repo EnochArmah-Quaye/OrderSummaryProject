@@ -21,6 +21,7 @@ body {
     flex-direction: row;
     background-color: hsl(225, 100%, 98%);
     margin:0px 20px;
+    height: 65px;
 }
 #plan-text {
     display: flex;
@@ -29,6 +30,7 @@ body {
 }
 #plan-text p {
     margin-left:2px ;
+    line-height: 1.5em;
 }
 #buttons {
     display: flex;
@@ -51,6 +53,7 @@ img {
       width:100%;
       height:auto;
 }
+
 #b1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -80,6 +83,402 @@ img {
     border-radius: 1em;
 }
 
+@media only screen and (max-width:1024px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', Georgia, 'Times New Roman', Times, serif;
+    }
+    #container {
+        background-color:white;
+        margin: 30px 5px 0px 5px;
+        text-align: center;
+        border-radius: 1em;
+    }
+    #plan {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(225, 100%, 98%);
+        margin:0px 20px 0px 20px;
+        border-radius: 0.5em;
+
+    }
+    #plan-text {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    #plan-text p {
+        margin-left:18px ;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    }
+    #link1 {
+        margin-left: 50px;
+        margin-top: 23px;                              
+    }
+    #image2 {
+        margin:0px 0px 0px 0px;
+    }
+    
+    #text {
+        margin: 0px;      
+    }
+    img {
+        width:100%;
+        height: auto;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    img[src="images/icon-music.svg"] {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 15px;
+    }
+    #b1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b1:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    #b2:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #text1 {
+        margin: 0px 8px 20px 8px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .attribution {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width:798px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', Georgia, 'Times New Roman', Times, serif;
+    }
+    #container {
+        background-color:white;
+        margin: 30px 5px 0px 5px;
+        text-align: center;
+        border-radius: 1em;
+    }
+    #plan {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(225, 100%, 98%);
+        margin:0px 20px 0px 20px;
+        border-radius: 0.5em;
+
+    }
+    #plan-text {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    #plan-text p {
+        margin-left:18px ;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    }
+    #link1 {
+        margin-left: 50px;
+        margin-top: 23px;                              
+    }
+    #image2 {
+        margin:0px 0px 0px 0px;
+    }
+    
+    #text {
+        margin: 0px;      
+    }
+    img {
+        width:100%;
+        height: auto;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    img[src="images/icon-music.svg"] {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 15px;
+    }
+    #b1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b1:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    #b2:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #text1 {
+        margin: 0px 8px 20px 8px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .attribution {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width:425px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', Georgia, 'Times New Roman', Times, serif;
+    }
+    #container {
+        background-color:white;
+        margin: 30px 5px 0px 5px;
+        text-align: center;
+        border-radius: 1em;
+    }
+    #plan {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(225, 100%, 98%);
+        margin:0px 20px 0px 20px;
+        border-radius: 0.5em;
+
+    }
+    #plan-text {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    #plan-text p {
+        margin-left:18px ;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    }
+    #link1 {
+        margin-left: 50px;
+        margin-top: 23px;                              
+    }
+    #image2 {
+        margin:0px 0px 0px 0px;
+    }
+    
+    #text {
+        margin: 0px;      
+    }
+    img {
+        width:100%;
+        height: auto;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    img[src="images/icon-music.svg"] {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 15px;
+    }
+    #b1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b1:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    #b2:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #text1 {
+        margin: 0px 8px 20px 8px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .attribution {
+        margin-top: 7px;
+    }
+}
+
+@media only screen and (max-width:375px) {
+    body {
+        background-image: url(images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        font-family: 'Red Hat Display', Georgia, 'Times New Roman', Times, serif;
+    }
+    #container {
+        background-color:white;
+        margin: 30px 5px 0px 5px;
+        text-align: center;
+        border-radius: 1em;
+    }
+    #plan {
+        display: flex;
+        flex-direction: row;
+        background-color: hsl(225, 100%, 98%);
+        margin:0px 20px 0px 20px;
+        border-radius: 0.5em;
+
+    }
+    #plan-text {
+        display: flex;
+        flex-direction: row;
+        margin-left: 0px;
+        font-size: 12px;
+    }
+    #plan-text p {
+        margin-left:18px ;
+    }
+    #buttons {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        margin: 0px 0px 0px 0px;
+    }
+    #link1 {
+        margin-left: 50px;
+        margin-top: 23px;                              
+    }
+    #image2 {
+        margin:0px 0px 0px 0px;
+    }
+    
+    #text {
+        margin: 0px;      
+    }
+    img {
+        width:100%;
+        height: auto;
+        border-top-left-radius: 1em;
+        border-top-right-radius: 1em;
+    }
+    img[src="images/icon-music.svg"] {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 15px;
+    }
+    #b1 {
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b2 {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+        margin-right: 20px;
+        background-color: white;
+        border-style: hidden;
+        height: 40px;
+    }
+    #b1:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    #b2:hover {
+        background-color: blue;
+        cursor: pointer;
+        color: white;
+        border-radius: 0.5em;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    #text1 {
+        margin: 0px 8px 20px 8px;
+        text-align: center;
+        line-height: 25px;
+    }
+    .attribution {
+        margin-top: 7px;
+    }
+}
+
 @media only screen and (max-width:320px) {
     body {
         background-image: url(images/pattern-background-desktop.svg);
@@ -107,7 +506,7 @@ img {
         font-size: 12px;
     }
     #plan-text p {
-        margin-left:20px ;
+        margin-left:18px ;
     }
     #buttons {
         display: flex;
@@ -116,8 +515,8 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 60px;
-        margin-top: 20px;                              
+        margin-left: 50px;
+        margin-top: 23px;                              
     }
     #image2 {
         margin:0px 0px 0px 0px;
@@ -131,6 +530,11 @@ img {
         height: auto;
         border-top-left-radius: 1em;
         border-top-right-radius: 1em;
+    }
+    img[src="images/icon-music.svg"] {
+        width: 40px;
+        height: 40px;
+        margin: 10px 0px 0px 15px;
     }
     #b1 {
         margin-top: 20px;
