@@ -13,75 +13,96 @@ body {
 }
 #container {
     background-color:white;
-    margin: 40px 450px 0px ;
+    margin: 30px 300px 0px 300px;
     text-align: center;
+    border-radius: 1em;
 }
 #plan {
     display: flex;
     flex-direction: row;
     background-color: hsl(225, 100%, 98%);
-    margin:0px 20px;
-    height: 65px;
+    margin:0px 20px 0px 20px;
+    border-radius: 0.5em;
+
 }
 #plan-text {
     display: flex;
     flex-direction: row;
-    margin-left: 20px;
+    margin-left: 0px;
+    font-size: 15px;
 }
 #plan-text p {
-    margin-left:2px ;
-    line-height: 1.5em;
+    margin-left:32px ;
 }
 #buttons {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    margin: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
 }
 #link1 {
-    margin-left: 150px;
-    margin-top: 20px;                              
+    margin-left: 100px;
+    margin-top: 23px;                              
 }
 #image2 {
-    margin:7px 0px 0px 15px;
+    margin:0px 0px 0px 0px;
 }
 
 #text {
     margin: 0px;      
 }
 img {
-      width:100%;
-      height:auto;
+    width:100%;
+    height: auto;
+    border-top-left-radius: 1em;
+    border-top-right-radius: 1em;
 }
-
+img[src="images/icon-music.svg"] {
+    width: 40px;
+    height: 40px;
+    margin: 10px 0px 0px 15px;
+}
 #b1 {
+    margin-top: 20px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
     border-style: hidden;
-    height: 30px;
+    height: 40px;
 }
 #b2 {
-    margin-top: 10px;
+    margin-top: 0px;
     margin-bottom: 20px;
     margin-left: 20px;
     margin-right: 20px;
     background-color: white;
     border-style: hidden;
-    height: 30px;
+    height: 40px;
 }
 #b1:hover {
     background-color: blue;
     cursor: pointer;
     color: white;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
 #b2:hover {
     background-color: blue;
     cursor: pointer;
     color: white;
-    border-radius: 1em;
+    border-radius: 0.5em;
 }
+h1 {
+    font-size: 30px;
+}
+#text1 {
+    margin: 0px 30px 20px 30px;
+    text-align: center;
+    line-height: 25px;
+}
+.attribution {
+    margin-top: 7px;
+}
+
 
 @media only screen and (max-width:1024px) {
     body {
@@ -91,7 +112,7 @@ img {
     }
     #container {
         background-color:white;
-        margin: 30px 5px 0px 5px;
+        margin: 30px 300px 0px 300px;
         text-align: center;
         border-radius: 1em;
     }
@@ -107,10 +128,10 @@ img {
         display: flex;
         flex-direction: row;
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 15px;
     }
     #plan-text p {
-        margin-left:18px ;
+        margin-left:32px ;
     }
     #buttons {
         display: flex;
@@ -119,7 +140,7 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 50px;
+        margin-left: 100px;
         margin-top: 23px;                              
     }
     #image2 {
@@ -170,10 +191,10 @@ img {
         border-radius: 0.5em;
     }
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     #text1 {
-        margin: 0px 8px 20px 8px;
+        margin: 0px 30px 20px 30px;
         text-align: center;
         line-height: 25px;
     }
@@ -182,7 +203,7 @@ img {
     }
 }
 
-@media only screen and (max-width:798px) {
+@media only screen and (max-width:768px) {
     body {
         background-image: url(images/pattern-background-desktop.svg);
         background-color: hsl(225, 100%, 94%);
@@ -190,7 +211,7 @@ img {
     }
     #container {
         background-color:white;
-        margin: 30px 5px 0px 5px;
+        margin: 30px 130px 0px 130px;
         text-align: center;
         border-radius: 1em;
     }
@@ -206,10 +227,10 @@ img {
         display: flex;
         flex-direction: row;
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 15px;
     }
     #plan-text p {
-        margin-left:18px ;
+        margin-left:32px ;
     }
     #buttons {
         display: flex;
@@ -218,7 +239,7 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 50px;
+        margin-left: 200px;
         margin-top: 23px;                              
     }
     #image2 {
@@ -269,10 +290,10 @@ img {
         border-radius: 0.5em;
     }
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     #text1 {
-        margin: 0px 8px 20px 8px;
+        margin: 0px 30px 20px 30px;
         text-align: center;
         line-height: 25px;
     }
@@ -289,7 +310,7 @@ img {
     }
     #container {
         background-color:white;
-        margin: 30px 5px 0px 5px;
+        margin: 30px 10px 0px 10px;
         text-align: center;
         border-radius: 1em;
     }
@@ -305,7 +326,7 @@ img {
         display: flex;
         flex-direction: row;
         margin-left: 0px;
-        font-size: 12px;
+        font-size: 14px;
     }
     #plan-text p {
         margin-left:18px ;
@@ -317,14 +338,14 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 50px;
+        margin-left: 135px;
         margin-top: 23px;                              
     }
     #image2 {
         margin:0px 0px 0px 0px;
     }
     
-    #text {
+    #text{
         margin: 0px;      
     }
     img {
@@ -368,10 +389,10 @@ img {
         border-radius: 0.5em;
     }
     h1 {
-        font-size: 20px;
+        font-size: 30px;
     }
     #text1 {
-        margin: 0px 8px 20px 8px;
+        margin: 0px 15px 20px 15px;
         text-align: center;
         line-height: 25px;
     }
@@ -416,7 +437,7 @@ img {
         margin: 0px 0px 0px 0px;
     }
     #link1 {
-        margin-left: 50px;
+        margin-left: 100px;
         margin-top: 23px;                              
     }
     #image2 {
@@ -424,7 +445,7 @@ img {
     }
     
     #text {
-        margin: 0px;      
+        margin: 0px 0px 0px 0px;      
     }
     img {
         width:100%;
@@ -467,7 +488,7 @@ img {
         border-radius: 0.5em;
     }
     h1 {
-        font-size: 20px;
+        font-size: 25px;
     }
     #text1 {
         margin: 0px 8px 20px 8px;
